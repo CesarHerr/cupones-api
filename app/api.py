@@ -10,5 +10,5 @@ def calcular():
     cupon = data.get("cupon")
     impuesto = data.get("impuesto", 0.19)
 
-    final = calcular_precio_final(precio, cupon, impuesto)
-    return jsonify({"precio_final": final})
+    final_ = calcular_precio_final(precio, cupon, impuesto)
+    return jsonify({"precio_final": final_})
